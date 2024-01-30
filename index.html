@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- App icon -->
+    <link rel="icon" href="To-Do.png" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- New Task -->
+      <form id="new-task">
+        <input
+          type="text"
+          placeholder="Enter The Task Here...."
+          name="content"
+          id="content"
+        />
+        <button id="push" type="submit">Add</button>
+      </form>
+      <!-- Tasks List -->
+      <div id="tasks">
+        <div id="list"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
